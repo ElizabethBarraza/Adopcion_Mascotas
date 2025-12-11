@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Adopción de Mascotas - Catálogo</title>
+<link rel="stylesheet" href="/css/styles.css" />
+</head>
+<body>
+  <header class="header">
+    <h1>Adopta una Mascota 🐾</h1>
+    <p class="subtitle">Catálogo simple, visual y amigable</p>
+  </header>
+  <main class="container">
+    <section id="catalog" class="grid"></section>
+  </main>
+
+  <template id="card-template">
+    <article class="card">
+      <img class="pet-img" src="" alt="Mascota" />
+      <div class="card-body">
+        <h3 class="pet-name"></h3>
+        <p class="pet-type"></p>
+        <p class="pet-age"></p>
+        <button class="btn details">Ver detalles</button>
+      </div>
+    </article>
+  </template>
+
+  <div id="modal" class="modal hidden">
+    <div class="modal-card">
+      <button id="closeModal" class="modal-close">&times;</button>
+      <img id="modalImg" src="" alt="Mascota" />
+      <h2 id="modalName"></h2>
+      <p id="modalBreed"></p>
+      <p id="modalAge"></p>
+      <p id="modalDesc"></p>
+    </div>
+  </div>
+
+<script src="/js/app.js"></script>
+</body>
+</html>
