@@ -11,7 +11,7 @@ Ejecutar localmente:
 cd app
 npm install
 npm start
-# abrir http://localhost:8080
+# abrir http://mascotas-alb-1019600993.us-east-1.elb.amazonaws.com/
 
 Docker:
 docker build -t elibarraza/adopcion-mascotas:1.0 ./app
