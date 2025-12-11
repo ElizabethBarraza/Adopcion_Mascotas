@@ -2,3 +2,7 @@ node_modules
 npm-debug.log
 .env
 .git
+# Contenido para el .gitignore
+.terraform
+*.tfstate
+*.tfstate.backup
